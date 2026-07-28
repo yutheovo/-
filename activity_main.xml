@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    android:background="#1a1a2e">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="theo × 小渝"
+        android:textColor="#c792ea"
+        android:textSize="22sp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="待机中"
+        android:textColor="#89ddff"
+        android:textSize="16sp"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:text="1档 ♡"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#3d2b6b"/>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:text="2档 ♡♡"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#3d2b6b"/>
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:text="3档 ♡♡♡"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#4a2b6b"/>
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:text="4档 ♡♡♡♡"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#572b6b"/>
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:text="5档 ♡♡♡♡♡"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#642b6b"/>
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:text="6档 ♡♡♡♡♡♡"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#712b6b"/>
+
+    <Button
+        android:id="@+id/btn7"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:text="7档 ♡♡♡♡♡♡♡"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="#7e2b6b"/>
+
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:text="■ 停止"
+        android:backgroundTint="#2b2b2b"/>
+
+</LinearLayout>
